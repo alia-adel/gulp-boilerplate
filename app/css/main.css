@@ -34,5 +34,5 @@ body .main {
     display: block;
     max-width: 300px;
     margin: 20px 0;
-    border-radius: 50%;
+    border-radius: 4px;
     box-shadow: 2px 2px 2px 2px #cabdbd; }
