@@ -1,0 +1,38 @@
+.flex-center-center, body .main h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+button {
+  background-color: #fff;
+  border: 1px solid #d8135d;
+  border-radius: 4px;
+  color: #d8135d;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 2px 2px 2px 0 #9e9d9d;
+  box-shadow: 2px 2px 2px 0 #9e9d9d;
+  outline: none; }
+  button:hover {
+    background-color: #ede5e5; }
+  button.small {
+    min-width: 100px; }
+  button.large {
+    min-width: 150px; }
+
+body .main {
+  margin: 20px; }
+  body .main h1 {
+    color: #d8135d;
+    text-transform: capitalize; }
+    body .main h1 .testing {
+      width: 71.42857%; }
+  body .main .flower {
+    display: block;
+    max-width: 300px;
+    margin: 20px 0;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px #cabdbd; }

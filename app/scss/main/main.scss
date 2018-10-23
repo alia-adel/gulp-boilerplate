@@ -1,0 +1,26 @@
+@import '../abstract/abstract';
+@import '../form/button';
+
+body {
+    .main {
+        margin: 20px;
+
+        h1 {
+            color: #d8135d;
+            text-transform: capitalize;
+            @extend .flex-center-center;
+
+            .testing {
+                width: percentage(5/7);
+            }
+        }
+
+        .flower {
+            display: block;
+            max-width: 300px;
+            margin: 20px 0;
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px 2px #cabdbd;
+        }
+    }
+}
